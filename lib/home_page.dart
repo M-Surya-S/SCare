@@ -104,11 +104,7 @@ class HomePage extends StatelessWidget {
         },
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.chat),
-              label: "Chat"), // Mengarahkan ke halaman consultation_page
-          BottomNavigationBarItem(
-              icon: Icon(Icons.calendar_today), label: "Agenda"),
+          BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
         type: BottomNavigationBarType.fixed,
