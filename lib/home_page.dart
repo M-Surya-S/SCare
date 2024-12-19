@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'consultation_page.dart';
+import 'nutrition_page.dart';
+import 'profile_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -81,7 +83,17 @@ class HomePage extends StatelessWidget {
                   },
                   child: _buildFeatureButton(Icons.chat, "Konsultasi"),
                 ), // Mengarahkan ke halaman consultation_page
-                _buildFeatureButton(Icons.restaurant, "Nutrisi Harian"),
+                GestureDetector(
+                  onTap: () {
+                    // Mengarahkan ke halaman Nutrisi Harian
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const NutritionPage()),
+                    );
+                  },
+                  child: _buildFeatureButton(Icons.restaurant, "Nutrisi Harian"),
+                ),
               ],
             ),
             const SizedBox(height: 20),
@@ -99,6 +111,12 @@ class HomePage extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const ConsultationPage()),
+            );
+          } else if (index == 2) {
+            // Jika item Profile ditekan
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ProfilePage()), // Navigasi ke halaman Profile
             );
           }
         },
