@@ -2,8 +2,6 @@
 
 SCare (Stunting Care) adalah aplikasi mobile berbasis **Flutter** yang dikembangkan sebagai solusi digital untuk membantu menurunkan angka **stunting** pada anak di Balikpapan, Indonesia. Aplikasi ini memberikan informasi gizi, layanan konsultasi medis, dan akses ke makanan bergizi bagi ibu hamil serta balita.  
 
----
-
 ## ✨ Fitur Utama  
 - **Autentikasi Pengguna**  
   - Register & Login akun dengan UI sederhana.  
@@ -20,8 +18,6 @@ SCare (Stunting Care) adalah aplikasi mobile berbasis **Flutter** yang dikembang
   - Informasi pribadi (nama, email, tanggal lahir, alamat).  
   - Tombol logout.  
 
----
-
 ## 📱 Tampilan  
 Beberapa halaman yang tersedia dalam aplikasi:  
 - Register Page  
@@ -31,14 +27,10 @@ Beberapa halaman yang tersedia dalam aplikasi:
 - Nutrition Page  
 - Profile Page  
 
----
-
 ## 🛠️ Teknologi yang Digunakan  
 - **Flutter (Dart)** → pengembangan aplikasi mobile  
 - **Material Design** → UI/UX  
 - *(Planned)* **Firebase** → integrasi database & autentikasi (belum terealisasi karena kendala teknis)  
-
----
 
 ## 🚀 Cara Menjalankan  
 1. Clone repository ini  
@@ -55,8 +47,6 @@ Beberapa halaman yang tersedia dalam aplikasi:
    flutter run
    ```
 
----
-
 ## 🎯 Tujuan Proyek  
 - Memberikan edukasi gizi yang mudah dipahami bagi ibu hamil dan balita.  
 - Menyediakan layanan konsultasi dengan dokter secara praktis.  
@@ -66,12 +56,8 @@ Proyek ini mendukung **Sustainable Development Goals (SDGs)**:
 - **SDG 2 – Tanpa Kelaparan** (mengakhiri malnutrisi & stunting).  
 - **SDG 3 – Kehidupan Sehat dan Sejahtera** (peningkatan kesehatan ibu dan anak).  
 
----
-
 ## ⚠️ Kendala  
 Pada tahap pengembangan, integrasi dengan **Firebase** mengalami kendala teknis sehingga aplikasi masih berjalan tanpa backend/database.  
-
----
 
 ## 📂 Struktur Project (ringkas)  
 ```
@@ -84,8 +70,6 @@ lib/
  ├── nutrition_page.dart
  └── profile_page.dart
 ```
-
----
 
 ## 📄 Lisensi  
 Proyek ini dibuat untuk tujuan akademik di **Institut Teknologi Kalimantan**.   
