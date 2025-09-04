@@ -9,13 +9,12 @@ SCare (Stunting Care) adalah aplikasi mobile berbasis **Flutter** yang dikembang
   - Register & Login akun dengan UI sederhana.  
 - **Home Page**  
   - Ringkasan nutrisi harian.  
-  - Fitur utama: Katering, Konsultasi, Nutrisi Harian.  
   - Riwayat makanan terakhir.  
 - **Konsultasi**  
   - Daftar konsultasi dengan dokter/ahli.  
-  - Chat interaktif (bubble chat, timestamp, input pesan, emoji, gambar, voice).  
+  - Chat interaktif.  
 - **Nutrisi Harian**  
-  - Informasi kebutuhan nutrisi harian (kalori, protein, lemak, karbohidrat, serat).  
+  - Informasi kebutuhan nutrisi harian.  
   - Daftar makanan dengan detail kandungan gizi per porsi.  
 - **Profil Pengguna**  
   - Informasi pribadi (nama, email, tanggal lahir, alamat).  
@@ -89,5 +88,4 @@ lib/
 ---
 
 ## 📄 Lisensi  
-Proyek ini dibuat untuk tujuan akademik di **Institut Teknologi Kalimantan**.  
-Lisensi dapat disesuaikan (misalnya: MIT, GPL, dsb).  
+Proyek ini dibuat untuk tujuan akademik di **Institut Teknologi Kalimantan**.   
